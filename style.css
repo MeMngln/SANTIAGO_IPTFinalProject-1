@@ -1,0 +1,42 @@
+body{font-family:Arial,Helvetica,sans-serif;background:#f2f2f2;color:#222;max-width:800px;margin:0 auto;padding:10px;line-height:1.4}
+h1{text-align:center;color:#333;margin-bottom:5px}
+header p{text-align:center}
+nav{text-align:center;padding:8px;background:#ddd;border:1px solid #999}
+nav a{margin:0 8px}
+.card{background:#fff;border:1px solid #999;padding:15px;margin:15px 0}
+.card h2{margin-top:0;border-bottom:1px solid #999;padding-bottom:5px}
+button{padding:5px 10px;margin:3px}
+input[type=text],select{padding:4px}
+.row{margin:8px 0}
+.out{background:#eee;border:1px solid #bbb;padding:8px;margin-top:8px;font-family:monospace;white-space:pre-wrap;min-height:30px}
+.chips{margin:8px 0;min-height:28px}
+.chip{display:inline-block;border:1px solid #333;padding:2px 8px;margin:2px;background:#ffd}
+pre{background:#eee;border:1px solid #ccc;padding:8px;overflow-x:auto;font-size:13px}
+.box{border:2px solid #333;padding:10px;margin:8px;text-align:center;cursor:pointer;background:#fff}
+.box small{display:block;color:#666}
+ul#todo{padding-left:20px}
+ul#todo li{margin-bottom:5px}
+.accent-on{background:yellow}
+.photo {width: 200px;height: 200px;max-width: 100%;overflow: hidden;border-radius: 50%;flex-shrink: 0;}
+.photo img {display: block;width: 100%;height: 100%;max-width: 100%;object-fit: cover;}
+footer{text-align:center;color:#555;padding:15px;font-size:14px}
+
+.field{margin-bottom:10px}
+.field label{display:block;font-weight:bold;margin-bottom:3px}
+.field input,.field textarea{width:100%;max-width:400px;padding:5px;box-sizing:border-box;font-family:inherit}
+.error{display:block;color:red;font-size:13px;min-height:16px}
+.ok{color:green}
+.project{border:1px solid #999;padding:10px;margin:8px 0;background:#fafafa}
+.project h3{margin:0 0 4px}
+.project small{color:#555}
+.msg{border:1px solid #bbb;background:#fafafa;padding:8px;margin:6px 0}
+.msg button{float:right}
+.active{background:#333;color:#fff}
+
+@media (max-width:600px){
+  body{padding:5px}
+  nav a{display:block;margin:4px 0}
+  .photo{float:none;margin:0 auto 10px}
+  .card{padding:10px}
+  .field input,.field textarea{max-width:100%}
+}
